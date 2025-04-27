@@ -1,0 +1,52 @@
+body{
+
+  font-family: arial;
+  padding-top: 100px;
+  padding-bottom: 300px;
+}
+.article-structure{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  margin: auto;
+  background-color: white;
+}
+.article-structure h1{
+  margin-bottom: 0px;
+
+}
+.picture-of-article{
+  height: 450px;
+  width: 100%;
+}
+.main-article-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.artilce-body{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+}
+.artilce-body  h1{
+  padding-left: 30px;
+}
+.date-auther-info{
+  height: 100px;
+  width: 400px;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  justify-content: center;
+  align-items: center ;
+}
+.author-img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  
+}
