@@ -1,0 +1,33 @@
+body{
+  font-family: arial;
+  color: gray;
+  
+  padding-top: 100px;
+
+  
+  
+}
+
+
+.error-messages-box{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pick-img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.error-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
